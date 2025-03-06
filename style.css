@@ -1,0 +1,139 @@
+ .indexbody{
+    background-image: url('res.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px; 
+    border-radius: 20px; 
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between columns */
+  }
+  
+  .block {
+    text-align: center;
+    width: 45%; /* Adjusts the width of each block */
+    padding: 20px;
+    background-color: rgba(255, 204, 188, 0.5); /* Set a background color */
+    color: white; /* Set text color */
+    margin: 10px 0; /* Add space between blocks */
+    border-radius: 20px;
+  }
+  
+ .top{
+    background-color: rgb(216, 121, 159);
+    color: aqua;
+    text-align:center;
+    border-radius: 50px;
+    padding: 80px;
+}
+#logo{
+    border-radius: 110px;
+    height: 100px;
+    width: 100px;
+}
+.menu{
+    text-align: center;
+}
+#b1{
+    background-color: rgb(188, 117, 220);
+    padding: 40px 80px 40px 80px;
+    border-width: 0px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#b1:hover{
+    background-color: #FFB3C6;
+}
+#b2{
+    background-color: #1ce8a7;
+    padding: 40px 80px 40px 80px;
+    border-width: 0px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#b2:hover{
+    background-color: #228B22;
+}
+#b3{
+    background-color: rgb(240, 62, 127);
+    padding: 40px 80px 40px 80px;
+    border-width: 0px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#b3:hover{
+    background-color: #FFC107;
+}
+#bt1{
+    background-color: #E07A5F;
+    padding: 40px 80px 40px 80px;
+    border-width: 0px;
+    border-radius: 40px;
+    margin: 20px 40px 20px 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#bt1:hover{
+    background-color: #B7C59B;
+}
+#bt2{
+    background-color: #DC143C;
+    padding: 40px 80px 40px 80px;
+    border-width: 0px;
+    border-radius: 40px;
+    margin: 20px 40px 20px 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#bt2:hover{
+    background-color: #D2691E;
+ }
+
+
+ .hide {
+    display: none;
+    margin: 50px 500px 50px 500px;
+    padding: 20px 20px 20px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .show {
+    background-color: #D8C1A0;
+    margin: 50px 500px 50px 600px ;
+    padding: 40px 80px 40px 80px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer ;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+  }
+  .show:hover {
+    display: none; 
+  }
+  .show:focus + .content {
+    display: block; 
+  }
+  .backButton {
+    padding: 10px 20px;
+    background-color: #dd6367;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  
